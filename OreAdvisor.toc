@@ -1,0 +1,8 @@
+## Interface: 20505
+## Title: Ore Advisor
+## Notes: Recommends what to do with your ore and gems based on TSM prices
+## Author: Claude
+## Version: 2.0
+## SavedVariables: OreAdvisorDB
+
+OreAdvisor.lua
