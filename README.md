@@ -9,6 +9,7 @@ No more guessing whether to smelt, prospect, or just sell raw — OreAdvisor doe
 ## Requirements
 
 - **World of Warcraft** — 20th Anniversary Classic (Interface version 20505)
+- **Version** — v1.0
 - **TradeSkillMaster (TSM)** with the TSM Desktop App running for up-to-date pricing data
 - A character with **Mining** and/or **Jewelcrafting**
 
@@ -119,7 +120,9 @@ The cut data is stored in saved variables (`OreAdvisorDB`) and shared between ch
 
 ## Verified Item IDs
 
-All ore and bar IDs have been verified in-game:
+All item IDs have been verified in-game.
+
+**Ore & Bars**
 
 | Item | ID |
 |---|---|
@@ -134,11 +137,66 @@ All ore and bar IDs have been verified in-game:
 | Eternium Bar | 23447 |
 | Felsteel Bar | 23448 |
 
+**Common Gems**
+
+| Item | ID |
+|---|---|
+| Blood Garnet | 23077 |
+| Deep Peridot | 23079 |
+| Shadow Draenite | 23107 |
+| Golden Draenite | 23112 |
+| Azure Moonstone | 23117 |
+| Flame Spessarite | 21929 |
+
+**Rare Gems**
+
+| Item | ID |
+|---|---|
+| Living Ruby | 23436 |
+| Talasite | 23437 |
+| Star of Elune | 23438 |
+| Noble Topaz | 23439 |
+| Dawnstone | 23440 |
+| Nightseye | 23441 |
+
+**Rare Gem Cuts**
+
+| Cut | ID |
+|---|---|
+| Bold Living Ruby | 24027 |
+| Delicate Living Ruby | 24028 |
+| Teardrop Living Ruby | 24029 |
+| Runed Living Ruby | 24030 |
+| Bright Living Ruby | 24031 |
+| Subtle Living Ruby | 24032 |
+| Flashing Living Ruby | 24036 |
+| Enduring Talasite | 24062 |
+| Dazzling Talasite | 24065 |
+| Radiant Talasite | 24066 |
+| Jagged Talasite | 24067 |
+| Solid Star of Elune | 24033 |
+| Sparkling Star of Elune | 24035 |
+| Lustrous Star of Elune | 24037 |
+| Stormy Star of Elune | 24039 |
+| Inscribed Noble Topaz | 24058 |
+| Potent Noble Topaz | 24059 |
+| Luminous Noble Topaz | 24060 |
+| Glinting Noble Topaz | 24061 |
+| Brilliant Dawnstone | 24047 |
+| Smooth Dawnstone | 24048 |
+| Gleaming Dawnstone | 24050 |
+| Rigid Dawnstone | 24051 |
+| Thick Dawnstone | 24052 |
+| Mystic Dawnstone | 24053 |
+| Sovereign Nightseye | 24054 |
+| Shifting Nightseye | 24055 |
+| Glowing Nightseye | 24056 |
+| Royal Nightseye | 24057 |
+
 ---
 
 ## Known Limitations
 
-- Rare gem cut IDs for patterns not yet learned by the JC are not fully verified. These will show as UNPRICED until the IDs are confirmed and added in a future update. Patterns you have learned are handled automatically by Scan Tradeskill.
 - Prospect values are statistical averages based on known drop rates. Individual sessions will vary.
 - DBMinBuyout (used for the hold signal) goes stale between AH scans. Run a TSM AH scan periodically to keep it accurate.
 

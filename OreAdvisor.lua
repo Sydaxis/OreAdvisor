@@ -111,49 +111,52 @@ local ALL_CUTS = {
         { name="Luminous Flame Spessarite",  stat="+5Heal/+1MP5", id=23099 },
         { name="Inscribed Flame Spessarite", stat="+5STR/+4Crit", id=23098 },
     },
-    -- Living Ruby (red rare) — cut IDs unverified, scan will fill known ones
+    -- Living Ruby (red rare) — all IDs verified ✓
     [23436] = {
-        { name="Bold Living Ruby",     stat="+12 STR",   id=0 },
-        { name="Runed Living Ruby",    stat="+12 SP",    id=0 },
-        { name="Delicate Living Ruby", stat="+12 AGI",   id=0 },
-        { name="Teardrop Living Ruby", stat="+12 Heal",  id=0 },
-        { name="Bright Living Ruby",   stat="+24 AP",    id=0 },
-        { name="Subtle Living Ruby",   stat="+12 Dodge", id=0 },
+        { name="Bold Living Ruby",     stat="+12 STR",   id=24027 },
+        { name="Delicate Living Ruby", stat="+12 AGI",   id=24028 },
+        { name="Teardrop Living Ruby", stat="+12 Heal",  id=24029 },
+        { name="Runed Living Ruby",    stat="+12 SP",    id=24030 },
+        { name="Bright Living Ruby",   stat="+24 AP",    id=24031 },
+        { name="Subtle Living Ruby",   stat="+12 Dodge", id=24032 },
+        { name="Flashing Living Ruby", stat="+12 STA",   id=24036 },
     },
-    -- Talasite (green rare)
+    -- Talasite (green rare) — all IDs verified ✓
     [23437] = {
-        { name="Jagged Talasite",   stat="+6AGI/+6STA",  id=0 },
-        { name="Enduring Talasite", stat="+6DEF/+6STA",  id=0 },
-        { name="Radiant Talasite",  stat="+6Crit/+6STA", id=0 },
-        { name="Dazzling Talasite", stat="+6INT/+2MP5",  id=0 },
+        { name="Enduring Talasite", stat="+6DEF/+6STA",  id=24062 },
+        { name="Dazzling Talasite", stat="+6INT/+2MP5",  id=24065 },
+        { name="Radiant Talasite",  stat="+6Crit/+6STA", id=24066 },
+        { name="Jagged Talasite",   stat="+6AGI/+6STA",  id=24067 },
     },
-    -- Star of Elune (blue rare)
+    -- Star of Elune (blue rare) — all IDs verified ✓
     [23438] = {
-        { name="Solid Star of Elune",     stat="+12 STA",      id=0 },
-        { name="Sparkling Star of Elune", stat="+12 SPI",      id=0 },
-        { name="Stormy Star of Elune",    stat="+12 SpellPen", id=0 },
-        { name="Lustrous Star of Elune",  stat="+3 MP5",       id=0 },
+        { name="Solid Star of Elune",     stat="+12 STA",      id=24033 },
+        { name="Sparkling Star of Elune", stat="+12 SPI",      id=24035 },
+        { name="Lustrous Star of Elune",  stat="+3 MP5",       id=24037 },
+        { name="Stormy Star of Elune",    stat="+12 SpellPen", id=24039 },
     },
-    -- Noble Topaz (orange rare)
+    -- Noble Topaz (orange rare) — all IDs verified ✓
     [23439] = {
-        { name="Glinting Noble Topaz",  stat="+6AGI/+6Hit",  id=0 },
-        { name="Potent Noble Topaz",    stat="+9SP/+6Crit",  id=0 },
-        { name="Luminous Noble Topaz",  stat="+9Heal/+2MP5", id=0 },
-        { name="Inscribed Noble Topaz", stat="+9STR/+6Crit", id=0 },
+        { name="Inscribed Noble Topaz", stat="+9STR/+6Crit", id=24058 },
+        { name="Potent Noble Topaz",    stat="+9SP/+6Crit",  id=24059 },
+        { name="Luminous Noble Topaz",  stat="+9Heal/+2MP5", id=24060 },
+        { name="Glinting Noble Topaz",  stat="+6AGI/+6Hit",  id=24061 },
     },
-    -- Dawnstone (yellow rare)
+    -- Dawnstone (yellow rare) — all IDs verified ✓
     [23440] = {
-        { name="Brilliant Dawnstone", stat="+12 INT",  id=0 },
-        { name="Gleaming Dawnstone",  stat="+12 Crit", id=0 },
-        { name="Thick Dawnstone",     stat="+12 DEF",  id=0 },
-        { name="Rigid Dawnstone",     stat="+12 Hit",  id=0 },
+        { name="Brilliant Dawnstone", stat="+12 INT",  id=24047 },
+        { name="Smooth Dawnstone",    stat="+12 STA",  id=24048 },
+        { name="Gleaming Dawnstone",  stat="+12 Crit", id=24050 },
+        { name="Rigid Dawnstone",     stat="+12 Hit",  id=24051 },
+        { name="Thick Dawnstone",     stat="+12 DEF",  id=24052 },
+        { name="Mystic Dawnstone",    stat="+12 SPI",  id=24053 },
     },
-    -- Nightseye (purple rare)
+    -- Nightseye (purple rare) — all IDs verified ✓
     [23441] = {
-        { name="Glowing Nightseye",   stat="+9SP/+6STA",   id=0 },
-        { name="Royal Nightseye",     stat="+9Heal/+2MP5", id=0 },
-        { name="Shifting Nightseye",  stat="+6AGI/+6STA",  id=0 },
-        { name="Sovereign Nightseye", stat="+9STR/+6STA",  id=0 },
+        { name="Sovereign Nightseye", stat="+9STR/+6STA",   id=24054 },
+        { name="Shifting Nightseye",  stat="+6AGI/+6STA",   id=24055 },
+        { name="Glowing Nightseye",   stat="+9SP/+6STA",    id=24056 },
+        { name="Royal Nightseye",     stat="+9Heal/+2MP5",  id=24057 },
     },
 }
 
